@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Bot } from "lucide-react";
+import { ArrowRight, Bot, Play } from "lucide-react";
+import { playDemoAudio } from "@/utils/audio";
 
 const Hero = () => {
   return (
@@ -16,8 +17,12 @@ const Hero = () => {
             Say goodbye to hold times, 24/7. Get an AI-powered inbound phone operator tailored for your business
           </p>
           <div className="flex flex-col sm:flex-row gap-4 animate-fadeIn" style={{ animationDelay: "0.2s" }}>
-            <Button size="lg" className="bg-primary hover:bg-primary/90" onClick={() => window.open("https://calendly.com/terry-wen333/15min", "_blank")}>
-              Get Started <ArrowRight className="ml-2 h-4 w-4" />
+            <Button 
+              size="lg" 
+              className="bg-primary hover:bg-primary/90" 
+              onClick={playDemoAudio}
+            >
+              Hear it in Action <Play className="ml-2 h-4 w-4" />
             </Button>
             <Button size="lg" variant="outline" onClick={() => window.open("https://calendly.com/terry-wen333/15min", "_blank")}>
               Book a Demo
