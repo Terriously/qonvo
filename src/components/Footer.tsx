@@ -17,11 +17,8 @@ const Footer = () => {
               Join the future of AI-powered communication. Get started with Qanvo today.
             </p>
           </div>
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div>
             <Button size="lg" className="bg-primary hover:bg-primary/90">
-              Start Free Trial
-            </Button>
-            <Button size="lg" variant="outline">
               Schedule Demo
             </Button>
           </div>
