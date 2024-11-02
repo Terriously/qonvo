@@ -30,7 +30,7 @@ const Hero = () => {
               className="bg-primary hover:bg-primary/90" 
               onClick={handleAudioToggle}
             >
-              {isPlaying ? 'Pause Demo' : 'Hear it in Action'} {isPlaying ? <Pause className="ml-2 h-4 w-4" /> : <Play className="ml-2 h-4 w-4" />}
+              {isPlaying ? <Pause className="mr-2 h-4 w-4" /> : <Play className="mr-2 h-4 w-4" />} {isPlaying ? 'Pause Demo' : 'Hear it in Action'}
             </Button>
             <Button size="lg" variant="outline" onClick={() => window.open("https://calendly.com/terry-wen333/15min", "_blank")}>
               Book a Demo
