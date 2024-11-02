@@ -13,7 +13,7 @@ const Hero = () => {
             Your AI-Powered <span className="gradient-text">Front Desk</span> Assistant
           </h1>
           <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400 animate-fadeIn" style={{ animationDelay: "0.1s" }}>
-            Streamline your reception operations with Qanvo. Handle visitors, manage schedules, and boost efficiency 24/7.
+            Say goodbye to hold times, 24/7. Get an AI-powered inbound phone operator tailored for your business
           </p>
           <div className="flex flex-col sm:flex-row gap-4 animate-fadeIn" style={{ animationDelay: "0.2s" }}>
             <Button size="lg" className="bg-primary hover:bg-primary/90">
