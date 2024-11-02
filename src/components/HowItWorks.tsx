@@ -1,4 +1,4 @@
-import { Check, MessageSquare, Calendar, Users } from "lucide-react";
+import { MessageSquare, Calendar, Users } from "lucide-react";
 
 const steps = [
   {
@@ -13,8 +13,8 @@ const steps = [
   },
   {
     icon: Users,
-    title: "Visitor Management",
-    description: "Track and manage visitor access with digital check-in/out system"
+    title: "Customised Agent",
+    description: "Get a custom made ready to go solution tailored for your use case, trained on your call recordings"
   }
 ];
 
