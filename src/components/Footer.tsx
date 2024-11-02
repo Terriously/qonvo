@@ -1,52 +1,36 @@
 import { Bot } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const Footer = () => {
   return (
-    <footer className="bg-white border-t">
-      <div className="container px-4 md:px-6 py-16">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-          <div className="col-span-2 md:col-span-1">
-            <div className="flex items-center space-x-2">
-              <Bot className="w-6 h-6 text-primary" />
-              <span className="text-xl font-bold">Qanvo</span>
-            </div>
-            <p className="mt-4 text-sm text-gray-500">
-              AI-powered front desk assistant for modern businesses
+    <section className="bg-primary/5 py-24">
+      <div className="container px-4 md:px-6">
+        <div className="flex flex-col items-center text-center space-y-8">
+          <div className="flex items-center justify-center w-16 h-16 rounded-full bg-primary/10">
+            <Bot className="w-8 h-8 text-primary" />
+          </div>
+          <div className="space-y-4 max-w-3xl">
+            <h2 className="text-3xl md:text-4xl font-bold">
+              Ready to Transform Your Customer Service?
+            </h2>
+            <p className="text-xl text-gray-600">
+              Join the future of AI-powered communication. Get started with Qanvo today.
             </p>
           </div>
-          <div>
-            <h3 className="font-semibold mb-4">Product</h3>
-            <ul className="space-y-2 text-sm text-gray-500">
-              <li>Features</li>
-              <li>Pricing</li>
-              <li>Security</li>
-              <li>Enterprise</li>
-            </ul>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <Button size="lg" className="bg-primary hover:bg-primary/90">
+              Start Free Trial
+            </Button>
+            <Button size="lg" variant="outline">
+              Schedule Demo
+            </Button>
           </div>
-          <div>
-            <h3 className="font-semibold mb-4">Company</h3>
-            <ul className="space-y-2 text-sm text-gray-500">
-              <li>About</li>
-              <li>Blog</li>
-              <li>Careers</li>
-              <li>Contact</li>
-            </ul>
+          <div className="pt-16 border-t w-full text-center text-sm text-gray-500">
+            © {new Date().getFullYear()} Qanvo. All rights reserved.
           </div>
-          <div>
-            <h3 className="font-semibold mb-4">Legal</h3>
-            <ul className="space-y-2 text-sm text-gray-500">
-              <li>Privacy</li>
-              <li>Terms</li>
-              <li>Cookie Policy</li>
-              <li>Licenses</li>
-            </ul>
-          </div>
-        </div>
-        <div className="mt-16 pt-8 border-t text-center text-sm text-gray-500">
-          © {new Date().getFullYear()} Qanvo. All rights reserved.
         </div>
       </div>
-    </footer>
+    </section>
   );
 };
 
