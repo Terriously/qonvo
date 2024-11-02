@@ -1,15 +1,10 @@
-import { Users, Building, Clock, Star } from "lucide-react";
+import { Users, Clock, TrendingUp } from "lucide-react";
 
 const metrics = [
   {
     icon: Users,
-    value: "50,000+",
-    label: "Visitors Managed"
-  },
-  {
-    icon: Building,
-    value: "1,000+",
-    label: "Companies"
+    value: "2x",
+    label: "Efficiency of your front desk assistants from day 1"
   },
   {
     icon: Clock,
@@ -17,9 +12,9 @@ const metrics = [
     label: "Availability"
   },
   {
-    icon: Star,
-    value: "99.9%",
-    label: "Satisfaction Rate"
+    icon: TrendingUp,
+    value: "20%",
+    label: "Increase in customer service score"
   }
 ];
 
@@ -27,7 +22,7 @@ const Metrics = () => {
   return (
     <section className="py-24 bg-gray-50">
       <div className="container px-4 md:px-6">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {metrics.map((metric, index) => (
             <div
               key={index}
