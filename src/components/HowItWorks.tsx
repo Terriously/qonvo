@@ -2,6 +2,11 @@ import { MessageSquare, Calendar, Users } from "lucide-react";
 
 const steps = [
   {
+    icon: Users,
+    title: "Customised Agent",
+    description: "Get a custom made ready to go solution trained on your call recordings"
+  },
+  {
     icon: MessageSquare,
     title: "Natural Conversations",
     description: "Engage visitors with human-like interactions powered by advanced AI"
@@ -10,11 +15,6 @@ const steps = [
     icon: Calendar,
     title: "Smart Scheduling",
     description: "Automatically manage appointments and notify relevant team members"
-  },
-  {
-    icon: Users,
-    title: "Customised Agent",
-    description: "Get a custom made ready to go solution trained on your call recordings"
   }
 ];
 
