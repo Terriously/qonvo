@@ -4,16 +4,26 @@ import Metrics from "@/components/Metrics";
 import Security from "@/components/Security";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
-      <Hero />
-      <HowItWorks />
-      <Metrics />
-      <Security />
-      <FAQ />
-      <Footer />
+      <Header />
+      <main className="pt-16">
+        <Hero />
+        <div id="how-it-works">
+          <HowItWorks />
+        </div>
+        <div id="metrics">
+          <Metrics />
+        </div>
+        <Security />
+        <div id="faq">
+          <FAQ />
+        </div>
+        <Footer />
+      </main>
     </div>
   );
 };
