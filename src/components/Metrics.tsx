@@ -4,7 +4,7 @@ const metrics = [
   {
     icon: Users,
     value: "2x",
-    label: "Efficiency of your front desk assistants from day 1"
+    label: "Efficiency of your front desk from day 1"
   },
   {
     icon: Clock,
