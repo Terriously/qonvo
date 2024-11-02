@@ -21,6 +21,10 @@ const faqs = [
   {
     question: "How secure is visitor data with Qanvo?",
     answer: "We implement enterprise-grade security measures including end-to-end encryption, secure data storage, and regular security audits to protect all visitor data."
+  },
+  {
+    question: "How expensive is Qanvo?",
+    answer: "We charge a flat fee for every business we work with based on thier volume of calls"
   }
 ];
 
