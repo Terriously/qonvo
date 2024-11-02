@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     question: "Can Qanvo integrate with our existing systems?",
-    answer: "Yes, Qanvo seamlessly integrates with popular calendar systems, access control systems, and communication platforms."
+    answer: "Yes, Qanvo seamlessly integrates with leading systems. For any bespoke platforms, our technical team will work closely with you to optimize integrations."
   },
   {
     question: "What languages does Qanvo support?",
