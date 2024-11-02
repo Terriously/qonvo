@@ -18,7 +18,9 @@ const Index = () => {
         <div id="metrics">
           <Metrics />
         </div>
-        <Security />
+        <div id="security">
+          <Security />
+        </div>
         <div id="faq">
           <FAQ />
         </div>
