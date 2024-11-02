@@ -27,13 +27,18 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 animate-fadeIn" style={{ animationDelay: "0.2s" }}>
             <Button 
               size="lg" 
-              className="bg-primary hover:bg-primary/90" 
+              variant="outline"
+              className="bg-white text-primary border-primary hover:bg-white/90" 
               onClick={handleAudioToggle}
             >
               {isPlaying ? <Pause className="mr-2 h-4 w-4" /> : <Play className="mr-2 h-4 w-4" />} {isPlaying ? 'Pause Demo' : 'Hear it in Action'}
             </Button>
-            <Button size="lg" variant="outline" onClick={() => window.open("https://calendly.com/terry-wen333/15min", "_blank")}>
-              Book a Demo
+            <Button 
+              size="lg" 
+              className="bg-primary hover:bg-primary/90" 
+              onClick={() => window.open("https://calendly.com/terry-wen333/15min", "_blank")}
+            >
+              Tell us your use case
             </Button>
           </div>
         </div>
