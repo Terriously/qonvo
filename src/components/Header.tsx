@@ -61,7 +61,7 @@ const Header = () => {
             </NavigationMenuList>
           </NavigationMenu>
         </div>
-        <Button size="lg" className="bg-primary hover:bg-primary/90">
+        <Button size="lg" className="bg-primary hover:bg-primary/90" onClick={() => window.open("https://calendly.com/terry-wen333/15min", "_blank")}>
           Book a Demo
         </Button>
       </div>
