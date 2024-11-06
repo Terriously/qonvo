@@ -15,7 +15,17 @@ const Header = () => {
     <header className="fixed top-0 w-full bg-white/80 backdrop-blur-sm z-50 border-b">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center space-x-8">
-          <span className="text-xl font-bold text-primary">Qanvo.ai</span>
+          <div className="flex items-center space-x-4">
+            <span className="text-xl font-bold text-primary">Qanvo.ai</span>
+            <div className="flex items-center">
+              <span className="text-sm text-gray-600 mr-2">Supported by</span>
+              <img 
+                src="https://assets.antler.co/images/antler-logo.svg" 
+                alt="Antler Logo" 
+                className="h-5"
+              />
+            </div>
+          </div>
           <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem>
@@ -61,23 +71,13 @@ const Header = () => {
             </NavigationMenuList>
           </NavigationMenu>
         </div>
-        <div className="flex items-center space-x-4">
-          <div className="flex items-center">
-            <span className="text-sm text-gray-600 mr-2">Supported by</span>
-            <img 
-              src="https://assets.antler.co/images/antler-logo.svg" 
-              alt="Antler Logo" 
-              className="h-5"
-            />
-          </div>
-          <Button 
-            size="lg" 
-            className="bg-primary hover:bg-primary/90" 
-            onClick={() => window.open("https://calendly.com/terry-wen333/15min", "_blank")}
-          >
-            Book a Demo
-          </Button>
-        </div>
+        <Button 
+          size="lg" 
+          className="bg-primary hover:bg-primary/90" 
+          onClick={() => window.open("https://calendly.com/terry-wen333/15min", "_blank")}
+        >
+          Book a Demo
+        </Button>
       </div>
     </header>
   );
