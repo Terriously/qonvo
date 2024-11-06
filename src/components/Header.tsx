@@ -61,9 +61,23 @@ const Header = () => {
             </NavigationMenuList>
           </NavigationMenu>
         </div>
-        <Button size="lg" className="bg-primary hover:bg-primary/90" onClick={() => window.open("https://calendly.com/terry-wen333/15min", "_blank")}>
-          Book a Demo
-        </Button>
+        <div className="flex items-center space-x-4">
+          <div className="flex items-center">
+            <span className="text-sm text-gray-600 mr-2">Supported by</span>
+            <img 
+              src="https://assets.antler.co/images/antler-logo.svg" 
+              alt="Antler Logo" 
+              className="h-5"
+            />
+          </div>
+          <Button 
+            size="lg" 
+            className="bg-primary hover:bg-primary/90" 
+            onClick={() => window.open("https://calendly.com/terry-wen333/15min", "_blank")}
+          >
+            Book a Demo
+          </Button>
+        </div>
       </div>
     </header>
   );
