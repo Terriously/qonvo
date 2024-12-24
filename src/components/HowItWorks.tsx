@@ -4,7 +4,7 @@ const steps = [
   {
     icon: Users,
     title: "Customised Agent",
-    description: "Trained on your past phone calls"
+    description: "Get a custom made ready to go solution tailored for your use case"
   },
   {
     icon: MessageSquare,
