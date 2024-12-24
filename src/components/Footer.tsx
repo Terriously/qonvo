@@ -14,7 +14,7 @@ const Footer = () => {
               Ready to Transform Your Customer Service?
             </h2>
             <p className="text-xl text-gray-600">
-              Join the future of AI-powered communication. Get started with Qanvo today.
+              Join the future of AI-powered communication. Get started with Qunvo today.
             </p>
           </div>
           <div>
