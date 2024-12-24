@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
 import Metrics from "@/components/Metrics";
+import ConnectApps from "@/components/ConnectApps";
 import Security from "@/components/Security";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
@@ -17,6 +18,9 @@ const Index = () => {
         </div>
         <div id="metrics">
           <Metrics />
+        </div>
+        <div id="connect-apps">
+          <ConnectApps />
         </div>
         <div id="security">
           <Security />
