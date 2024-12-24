@@ -37,7 +37,7 @@ const LeadGenForm = () => {
   };
 
   return (
-    <section className="py-24 bg-gray-50">
+    <section id="contact-form" className="py-24 bg-gray-50">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center space-y-4 text-center">
           <div className="space-y-2">

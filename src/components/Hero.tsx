@@ -11,6 +11,13 @@ const Hero = () => {
     setIsPlaying(playing);
   };
 
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="min-h-[calc(100vh-4rem)] flex items-center justify-center bg-gradient-to-b from-white to-gray-50">
       <div className="container px-4 md:px-6">
@@ -36,7 +43,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               className="bg-primary hover:bg-primary/90" 
-              onClick={() => window.open("https://calendly.com/terry-wen333/15min", "_blank")}
+              onClick={() => scrollToSection("contact-form")}
             >
               Tell us your use case
             </Button>
