@@ -22,7 +22,7 @@ const Hero = () => {
             Your AI-Powered <span className="gradient-text">Front Desk</span> Assistant
           </h1>
           <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400 animate-fadeIn" style={{ animationDelay: "0.1s" }}>
-            Stop putting your customers on hold. Get an AI-powered inbound phone operator tailored for your business
+            Stop putting your customers on hold. Get an AI-powered phone operator tailored for your business
           </p>
           <div className="flex flex-col sm:flex-row gap-4 animate-fadeIn" style={{ animationDelay: "0.2s" }}>
             <Button 
