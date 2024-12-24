@@ -31,6 +31,10 @@ serve(async (req) => {
   }
 
   try {
+    if (!RESEND_API_KEY) {
+      throw new Error('RESEND_API_KEY is not set')
+    }
+
     const { to, subject, formData } = await req.json() as EmailRequest
     console.log('Received request:', { to, subject, formData })
 
@@ -58,16 +62,15 @@ serve(async (req) => {
       }),
     })
 
+    const responseText = await res.text()
+    console.log('Resend API response:', responseText)
+
     if (!res.ok) {
-      const errorText = await res.text()
-      console.error('Resend API error:', errorText)
-      throw new Error(`Failed to send email: ${errorText}`)
+      console.error('Resend API error:', responseText)
+      throw new Error(`Failed to send email: ${responseText}`)
     }
 
-    const data = await res.json()
-    console.log('Email sent successfully:', data)
-
-    return new Response(JSON.stringify(data), {
+    return new Response(responseText, {
       headers: { ...corsHeaders, 'Content-Type': 'application/json' },
       status: 200,
     })
