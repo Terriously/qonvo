@@ -11,6 +11,10 @@ const Header = () => {
     }
   };
 
+  const openCalendly = () => {
+    window.open("https://calendly.com/terry-wen333/15min", "_blank");
+  };
+
   return (
     <header className="fixed top-0 w-full bg-white/80 backdrop-blur-sm z-50 border-b">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
@@ -64,7 +68,7 @@ const Header = () => {
         <Button 
           size="lg" 
           className="bg-primary hover:bg-primary/90" 
-          onClick={() => scrollToSection("contact-form")}
+          onClick={openCalendly}
         >
           Book a Demo
         </Button>
