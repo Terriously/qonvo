@@ -1,7 +1,6 @@
 import { serve } from "https://deno.land/std@0.168.0/http/server.ts"
 import { corsHeaders } from "../_shared/cors.ts"
-
-const SENDGRID_API_KEY = Deno.env.get('SENDGRID_API_KEY')
+import { createClient } from 'https://esm.sh/@supabase/supabase-js@2.38.4'
 
 serve(async (req) => {
   if (req.method === 'OPTIONS') {
@@ -10,6 +9,11 @@ serve(async (req) => {
 
   try {
     const { to, subject, formData } = await req.json()
+
+    const supabase = createClient(
+      Deno.env.get('SUPABASE_URL') ?? '',
+      Deno.env.get('SUPABASE_SERVICE_ROLE_KEY') ?? ''
+    )
 
     const emailContent = `
       New Lead Details:
@@ -22,23 +26,16 @@ serve(async (req) => {
       Message: ${formData.message}
     `
 
-    const response = await fetch('https://api.sendgrid.com/v3/mail/send', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        Authorization: `Bearer ${SENDGRID_API_KEY}`,
-      },
-      body: JSON.stringify({
-        personalizations: [{ to: [{ email: to }] }],
-        from: { email: 'noreply@yourdomain.com', name: 'Lead Form' },
+    const { error } = await supabase.auth.admin.createUser({
+      email: to,
+      email_confirm: true,
+      user_metadata: {
         subject: subject,
-        content: [{ type: 'text/plain', value: emailContent }],
-      }),
+        content: emailContent
+      }
     })
 
-    if (!response.ok) {
-      throw new Error('Failed to send email')
-    }
+    if (error) throw error
 
     return new Response(
       JSON.stringify({ message: 'Email sent successfully' }),
