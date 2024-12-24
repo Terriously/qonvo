@@ -18,6 +18,12 @@ interface FormData {
   consent: boolean
 }
 
+interface EmailRequest {
+  to: string
+  subject: string
+  formData: FormData
+}
+
 serve(async (req) => {
   // Handle CORS preflight requests
   if (req.method === 'OPTIONS') {
@@ -25,7 +31,7 @@ serve(async (req) => {
   }
 
   try {
-    const { to, subject, formData } = await req.json()
+    const { to, subject, formData } = await req.json() as EmailRequest
     console.log('Received request:', { to, subject, formData })
 
     const emailHtml = `
@@ -53,7 +59,9 @@ serve(async (req) => {
     })
 
     if (!res.ok) {
-      throw new Error(`Failed to send email: ${await res.text()}`)
+      const errorText = await res.text()
+      console.error('Resend API error:', errorText)
+      throw new Error(`Failed to send email: ${errorText}`)
     }
 
     const data = await res.json()
@@ -64,10 +72,13 @@ serve(async (req) => {
       status: 200,
     })
   } catch (error) {
-    console.error('Error sending email:', error)
-    return new Response(JSON.stringify({ error: error.message }), {
-      headers: { ...corsHeaders, 'Content-Type': 'application/json' },
-      status: 500,
-    })
+    console.error('Error in send-lead-email function:', error)
+    return new Response(
+      JSON.stringify({ error: error.message }),
+      {
+        headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+        status: 500,
+      }
+    )
   }
 })

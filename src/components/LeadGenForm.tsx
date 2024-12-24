@@ -30,7 +30,7 @@ const LeadGenForm = () => {
 
   const onSubmit = async (values: FormValues) => {
     try {
-      const { data, error } = await supabase.functions.invoke('send-lead-email', {
+      const { error } = await supabase.functions.invoke('send-lead-email', {
         body: {
           to: "terry.wen333@gmail.com",
           subject: `New Lead from ${values.firstName} ${values.lastName}`,
