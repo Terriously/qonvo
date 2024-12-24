@@ -15,6 +15,7 @@ interface FormData {
   company: string
   type: string
   message?: string
+  consent: boolean
 }
 
 serve(async (req) => {
