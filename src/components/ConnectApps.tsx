@@ -15,13 +15,6 @@ const ConnectApps = () => {
           <Smartphone className="w-16 h-16 text-primary" />
           <Link className="w-16 h-16 text-primary" />
         </div>
-        <div className="relative">
-          <img
-            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
-            alt="App Integration"
-            className="rounded-lg shadow-xl mx-auto max-w-3xl w-full"
-          />
-        </div>
       </div>
     </section>
   );
