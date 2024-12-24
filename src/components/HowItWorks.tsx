@@ -9,7 +9,7 @@ const steps = [
   {
     icon: MessageSquare,
     title: "Natural Conversations",
-    description: "Engage visitors with human-like interactions powered by advanced AI"
+    description: "Engage visitors with human-like interactions at low latency"
   },
   {
     icon: Calendar,
