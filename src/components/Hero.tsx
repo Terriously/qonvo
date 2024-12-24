@@ -26,7 +26,7 @@ const Hero = () => {
             <Bot className="w-8 h-8 text-primary" />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold tracking-tighter animate-fadeIn">
-            Your AI-Powered <span className="gradient-text">Front Desk</span> Assistant
+            AI-Powered Front Desk Assistant for <span className="gradient-text">Real Estate Agents</span>
           </h1>
           <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400 animate-fadeIn" style={{ animationDelay: "0.1s" }}>
             Stop putting your customers on hold. Get an AI-powered phone operator tailored for your business
