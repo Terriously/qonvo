@@ -23,7 +23,7 @@ const Footer = () => {
             </Button>
           </div>
           <div className="pt-16 border-t w-full text-center text-sm text-gray-500">
-            © {new Date().getFullYear()} Qanvo. All rights reserved.
+            © {new Date().getFullYear()} Qunvo. All rights reserved.
           </div>
         </div>
       </div>
