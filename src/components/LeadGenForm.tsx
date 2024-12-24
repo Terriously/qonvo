@@ -10,6 +10,7 @@ import { PersonalInfo } from "./lead-gen/PersonalInfo";
 import { ContactInfo } from "./lead-gen/ContactInfo";
 import { CompanyInfo } from "./lead-gen/CompanyInfo";
 import { formSchema, type FormValues } from "./lead-gen/FormSchema";
+import { supabase } from "@/lib/supabaseClient";
 
 const LeadGenForm = () => {
   const { toast } = useToast();
@@ -28,12 +29,31 @@ const LeadGenForm = () => {
   });
 
   const onSubmit = async (values: FormValues) => {
-    console.log(values);
-    toast({
-      title: "Form submitted",
-      description: "We'll be in touch soon!",
-    });
-    form.reset();
+    try {
+      const { data, error } = await supabase.functions.invoke('send-lead-email', {
+        body: {
+          to: "terry.wen333@gmail.com",
+          subject: `New Lead from ${values.firstName} ${values.lastName}`,
+          formData: values
+        }
+      });
+
+      if (error) throw error;
+
+      toast({
+        title: "Form submitted successfully",
+        description: "Thank you for your interest. We'll be in touch soon!",
+      });
+      
+      form.reset();
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      toast({
+        title: "Error submitting form",
+        description: "There was a problem submitting your form. Please try again.",
+        variant: "destructive",
+      });
+    }
   };
 
   return (
