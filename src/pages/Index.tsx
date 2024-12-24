@@ -4,6 +4,7 @@ import Metrics from "@/components/Metrics";
 import ConnectApps from "@/components/ConnectApps";
 import Security from "@/components/Security";
 import FAQ from "@/components/FAQ";
+import LeadGenForm from "@/components/LeadGenForm";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
@@ -28,6 +29,7 @@ const Index = () => {
         <div id="faq">
           <FAQ />
         </div>
+        <LeadGenForm />
         <Footer />
       </main>
     </div>
