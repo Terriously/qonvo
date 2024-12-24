@@ -11,7 +11,7 @@ const Footer = () => {
           </div>
           <div className="space-y-4 max-w-3xl">
             <h2 className="text-3xl md:text-4xl font-bold">
-              Ready to Transform Your Customer Service?
+              Ready to Transform Your Customer Strategy?
             </h2>
             <p className="text-xl text-gray-600">
               Join the future of AI-powered communication. Get started with Qunvo today.
