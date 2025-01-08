@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     question: "What languages does Qunvo support?",
-    answer: "Qanvo supports multiple languages including English, Spanish, French, German, and Chinese, with more languages being added regularly."
+    answer: "Qunvo supports multiple languages including English, Spanish, French, German, and Chinese, with more languages being added regularly."
   },
   {
     question: "How secure is visitor data with Qunvo?",
