@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     question: "Can Qunvo integrate with our existing systems?",
-    answer: "Yes, Qanvo seamlessly integrates with leading systems. For any bespoke platforms, our technical team will work closely with you to optimize integrations."
+    answer: "Yes, Qunvo seamlessly integrates with leading systems. For any bespoke platforms, our technical team will work closely with you to optimize integrations."
   },
   {
     question: "What languages does Qunvo support?",
