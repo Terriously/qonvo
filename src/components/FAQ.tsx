@@ -12,11 +12,11 @@ const faqs = [
   },
   {
     question: "Can Qonvo integrate with our existing systems?",
-    answer: "Yes, Qunvo seamlessly integrates with leading systems. For any bespoke platforms, our technical team will work closely with you to optimize integrations."
+    answer: "Yes, Qonvo seamlessly integrates with leading systems. For any bespoke platforms, our technical team will work closely with you to optimize integrations."
   },
   {
     question: "What languages does Qonvo support?",
-    answer: "Qunvo supports multiple languages including English, Spanish, French, German, and Chinese, with more languages being added regularly."
+    answer: "Qonvo supports multiple languages including English, Spanish, French, German, and Chinese, with more languages being added regularly."
   },
   {
     question: "How secure is visitor data with Qonvo?",
