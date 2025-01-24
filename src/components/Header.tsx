@@ -74,7 +74,7 @@ const Header = () => {
         <Button 
           size="lg" 
           className="bg-primary hover:bg-primary/90" 
-          onClick={() => scrollToSection("contact-form")}
+          onClick={() => window.open("https://calendly.com/terry-wen333/qonvo-ai", "_blank")}
         >
           Book a Demo
         </Button>
