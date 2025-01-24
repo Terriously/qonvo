@@ -14,7 +14,7 @@ const Footer = () => {
               Ready to Transform Your Customer Strategy?
             </h2>
             <p className="text-xl text-gray-600">
-              Join the future of AI-powered communication. Get started with Qunvo today.
+              Join the future of AI-powered communication. Get started with Qonvo today.
             </p>
           </div>
           <div>
@@ -23,7 +23,7 @@ const Footer = () => {
             </Button>
           </div>
           <div className="pt-16 border-t w-full text-center text-sm text-gray-500">
-            © {new Date().getFullYear()} Qunvo. All rights reserved.
+            © {new Date().getFullYear()} Qonvo. All rights reserved.
           </div>
         </div>
       </div>

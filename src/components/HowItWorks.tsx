@@ -23,7 +23,7 @@ const HowItWorks = () => {
     <section className="py-24 bg-white">
       <div className="container px-4 md:px-6">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold mb-4">How Qunvo Works</h2>
+          <h2 className="text-3xl font-bold mb-4">How Qonvo Works</h2>
           <p className="text-gray-500 max-w-2xl mx-auto">
             Transform your front desk operations with our intelligent AI assistant
           </p>
