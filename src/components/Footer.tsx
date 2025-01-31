@@ -18,7 +18,7 @@ const Footer = () => {
             </p>
           </div>
           <div>
-            <Button size="lg" className="bg-primary hover:bg-primary/90" onClick={() => window.open("https://calendly.com/terry-wen333/15min", "_blank")}>
+            <Button size="lg" className="bg-primary hover:bg-primary/90" onClick={() => window.open("https://calendly.com/terry-wen333/qonvo-ai", "_blank")}>
               Schedule Demo
             </Button>
           </div>
