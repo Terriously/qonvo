@@ -1,10 +1,11 @@
+
 import { Users, Clock, TrendingUp } from "lucide-react";
 
 const metrics = [
   {
     icon: Users,
-    value: "2x",
-    label: "front desk efficiency from day 1"
+    value: "5x",
+    label: "batch call efficiency from day 1"
   },
   {
     icon: Clock,
