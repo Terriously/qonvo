@@ -14,8 +14,8 @@ const metrics = [
   },
   {
     icon: TrendingUp,
-    value: "20%",
-    label: "Increase in customer service score"
+    value: "80%",
+    label: "booked meetings of top human reps"
   }
 ];
 
