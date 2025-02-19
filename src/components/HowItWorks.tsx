@@ -15,7 +15,7 @@ const steps = [
   {
     icon: Calendar,
     title: "Smart Scheduling",
-    description: "Your AI assistant automatically books appointments in your calendar and handles all the logistics"
+    description: "Automatically book meetings into your calendar"
   }
 ];
 
