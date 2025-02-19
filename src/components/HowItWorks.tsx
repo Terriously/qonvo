@@ -1,3 +1,4 @@
+
 import { MessageSquare, Calendar, Users } from "lucide-react";
 
 const steps = [
@@ -14,7 +15,7 @@ const steps = [
   {
     icon: Calendar,
     title: "Smart Scheduling",
-    description: "Automatically manage appointments and notify relevant team members"
+    description: "Your AI assistant automatically books appointments in your calendar and handles all the logistics"
   }
 ];
 
