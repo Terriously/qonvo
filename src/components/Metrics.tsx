@@ -15,7 +15,7 @@ const metrics = [
   {
     icon: TrendingUp,
     value: "80%",
-    label: "booked meetings of top human reps"
+    label: "conversion rate of top"
   }
 ];
 
