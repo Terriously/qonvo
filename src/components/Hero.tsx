@@ -27,7 +27,7 @@ const Hero = () => {
             <Bot className="w-8 h-8 text-primary" />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold tracking-tighter animate-fadeIn">
-            AI Cold Callers that book more meetings than a human
+            AI Cold Callers that <span className="text-[#0EA5E9]">book more meetings</span> than a human
           </h1>
           <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400 animate-fadeIn" style={{ animationDelay: "0.1s" }}>
             Instantly send calls from your lead list. Automatically handle inbound calls 24/7. Get an AI-powered phone operator tailored for you
