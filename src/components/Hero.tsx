@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Bot, Play, Pause } from "lucide-react";
 import { toggleAudio, isAudioPlaying } from "@/utils/audio";
@@ -26,7 +27,7 @@ const Hero = () => {
             <Bot className="w-8 h-8 text-primary" />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold tracking-tighter animate-fadeIn">
-            AI Phone Assistant for <span className="gradient-text">Real Estate</span> Agents
+            AI Cold Callers that <span className="gradient-text">book more meetings</span> than a human
           </h1>
           <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400 animate-fadeIn" style={{ animationDelay: "0.1s" }}>
             Automatically book appraisals from your lead list. Instantly handle inbound calls 24/7. Get an AI-powered phone operator tailored for you
