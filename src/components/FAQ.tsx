@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     question: "How expensive is Qonvo?",
-    answer: "We charge a flat fee for every business we work with based on thier volume of calls"
+    answer: "We charge a flat fee for every business we work with based on thier volume of calls. No minimum contract term."
   }
 ];
 
