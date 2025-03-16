@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     question: "How does Qonvo protect data?",
-    answer: "We implement enterprise-grade security measures including end-to-end encryption, secure data storage, and regular security audits to protect all visitor data."
+    answer: "We implement enterprise-grade security measures including end-to-end encryption, secure data storage, and regular security audits to protect all visitor data. We also oblige by and provide comprehensive NDAs and confidentiality agreements."
   },
   {
     question: "How expensive is Qonvo?",
