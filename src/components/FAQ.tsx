@@ -1,3 +1,4 @@
+
 import {
   Accordion,
   AccordionContent,
@@ -19,7 +20,7 @@ const faqs = [
     answer: "Qonvo supports multiple languages including English, Spanish, French, German, and Chinese, with more languages being added regularly."
   },
   {
-    question: "How secure is visitor data with Qonvo?",
+    question: "How secure and confidential is Qonvo?",
     answer: "We implement enterprise-grade security measures including end-to-end encryption, secure data storage, and regular security audits to protect all visitor data."
   },
   {
