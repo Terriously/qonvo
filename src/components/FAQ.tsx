@@ -1,4 +1,3 @@
-
 import {
   Accordion,
   AccordionContent,
@@ -9,7 +8,7 @@ import {
 const faqs = [
   {
     question: "What's the process to implement Qonvo to my business?",
-    answer: "We start with a 30 day pilot where we work closely with your business to customise your AI phone operator. During this time we deploy our software incrementally to first only handle a few calls before gradually increasing the load. We are building something cutting edge and our goal is to get you comfortable with it before we manage 100% of your calls."
+    answer: "We start with a 14-30 day pilot where we work closely with your business to customise your AI phone operator. During this time we deploy our software incrementally to first only handle a few calls before gradually increasing the load. We are building something cutting edge and our goal is to get you comfortable with it before we manage 100% of your calls."
   },
   {
     question: "Can Qonvo integrate with our existing systems?",
