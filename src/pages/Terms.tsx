@@ -26,8 +26,8 @@ const Terms = () => {
                 </p>
                 <ul className="list-disc pl-6 space-y-2">
                   <li><strong>Data Controller and Processor:</strong> For the purposes of GDPR, our Clients are the Data Controllers of the personal data processed through our AI-powered calling services. We act as Data Processors, processing personal data on their behalf and under their instructions, utilizing a third-party calling platform.</li>
-                  <li><strong>Lawful Basis for Processing:</strong> We process your personal data based on the lawful basis provided by our Clients, which may include legitimate interest, consent, or contractual necessity.</li>
-                  <li><strong>Data Collection and Use:</strong> We collect and process personal data that you provide during calls with our AI-powered systems, including voice recordings, call transcripts, and any information you share during the conversation. This data is used to:
+                  <li><strong>Lawful Basis for Processing:</strong> We process Recipient personal data based on the lawful basis provided by our Clients, which may include legitimate interest, consent, or contractual necessity.</li>
+                  <li><strong>Data Collection and Use:</strong> We collect and process personal data that Recipient provides during calls with our AI-powered systems, including voice recordings, call transcripts, and any information Recipient shares during the conversation. This data is used to:
                     <ul className="list-circle pl-6 mt-2 space-y-1">
                       <li>Provide the services requested by our Clients.</li>
                       <li>Improve the quality of our service delivery.</li>
@@ -35,11 +35,11 @@ const Terms = () => {
                       <li>Comply with legal obligations.</li>
                     </ul>
                   </li>
-                  <li><strong>Data Security:</strong> We implement appropriate technical and organizational measures, in conjunction with the third-party calling platforms, to protect your personal data against unauthorized access, disclosure, alteration, and destruction.</li>
+                  <li><strong>Data Security:</strong> We implement appropriate technical and organizational measures, in conjunction with the third-party calling platforms, to protect Recipient personal data against unauthorized access, disclosure, alteration, and destruction.</li>
                   <li><strong>Data Retention:</strong> We retain personal data only for as long as necessary to fulfil the purposes for which it was collected, or as required by applicable laws and regulations, and according to our Clients instructions.</li>
-                  <li><strong>Data Transfers:</strong> If your personal data is transferred outside the European Economic Area (EEA), we will ensure that appropriate safeguards are in place, such as standard contractual clauses or adequacy decisions, in conjunction with the third-party calling platform.</li>
-                  <li><strong>Recording of Calls:</strong> Calls with our AI-enhanced systems may be recorded for quality assurance, training, and compliance purposes. You will be notified of call recording at the beginning of the call.</li>
-                  <li><strong>Transparency:</strong> You will be informed of the identity of the Client on whose behalf we are calling, and the purpose of the call, at the beginning of each call. When asked, the AI-powered callers will never misrepresent as being a human caller.</li>
+                  <li><strong>Data Transfers:</strong> If Recipient personal data is transferred outside the European Economic Area (EEA), we will ensure that appropriate safeguards are in place, such as standard contractual clauses or adequacy decisions, in conjunction with the third-party calling platform.</li>
+                  <li><strong>Recording of Calls:</strong> Calls with our AI-enhanced systems may be recorded for quality assurance, training, and compliance purposes. Recipient will be notified of call recording at the beginning of the call.</li>
+                  <li><strong>Transparency:</strong> Recipient will be informed of the identity of the Client on whose behalf we are calling, and the purpose of the call, at the beginning of each call. When asked, the AI-powered callers will never misrepresent as being a human caller.</li>
                   <li><strong>Third Party Platform:</strong> We utilize various third-party calling platforms to provide our services. The platforms have their own security and privacy policies that are adhered to.</li>
                 </ul>
               </div>
@@ -48,8 +48,8 @@ const Terms = () => {
                 <h2 className="text-xl font-semibold mb-3">3. Use of AI Powered Calling Services</h2>
                 <ul className="list-disc pl-6 space-y-2">
                   <li><strong>Accuracy:</strong> While we strive to provide accurate and reliable AI-powered calling services, we do not guarantee the accuracy or completeness of the information provided by our systems.</li>
-                  <li><strong>No Liability:</strong> We are not liable for any direct, indirect, or consequential damages arising from your use of our AI-powered calling services.</li>
-                  <li><strong>Prohibited Use:</strong> You agree not to use our AI-powered calling services for any unlawful or prohibited purpose, including but not limited to:
+                  <li><strong>No Liability:</strong> We are not liable for any direct, indirect, or consequential damages arising from Recipient use of our AI-powered calling services.</li>
+                  <li><strong>Prohibited Use:</strong> Recipient agrees not to use our AI-powered calling services for any unlawful or prohibited purpose, including but not limited to:
                     <ul className="list-circle pl-6 mt-2 space-y-1">
                       <li>Harassing, abusing, or threatening others.</li>
                       <li>Distributing malware or other harmful software.</li>
@@ -76,21 +76,21 @@ const Terms = () => {
                 <ul className="list-disc pl-6 space-y-2">
                   <li>We utilize third party platforms, and therefore are subject to their intellectual property rules.</li>
                   <li>Any intellectual property rights related to our specific agent training and call flows are owned by us or our licensors.</li>
-                  <li>You are granted a limited, non-exclusive, and non-transferable license to interact with our AI-enhanced calling services for the purposes specified in these Terms.</li>
+                  <li>Recipient is granted a limited, non-exclusive, and non-transferable license to interact with our AI-enhanced calling services for the purposes specified in these Terms.</li>
                 </ul>
               </div>
               
               <div>
                 <h2 className="text-xl font-semibold mb-3">6. Changes to These Terms</h2>
                 <ul className="list-disc pl-6 space-y-2">
-                  <li>We may update these Terms from time to time. We will notify you of any material changes by posting the updated Terms on our website or by other means.</li>
-                  <li>Your continued use of our AI-enhanced calling services after any changes to these Terms constitutes your acceptance of the revised Terms.</li>
+                  <li>We may update these Terms from time to time. We will notify Recipient of any material changes by posting the updated Terms on our website or by other means.</li>
+                  <li>Recipient continued use of our AI-enhanced calling services after any changes to these Terms constitutes Recipient acceptance of the revised Terms.</li>
                 </ul>
               </div>
               
               <div>
                 <h2 className="text-xl font-semibold mb-3">7. Contact Us</h2>
-                <p>If you have any questions or concerns about these Terms or our data protection practices, please contact us at:</p>
+                <p>If Recipient has any questions or concerns about these Terms or our data protection practices, please contact us at:</p>
                 <ul className="list-disc pl-6 space-y-2 mt-2">
                   <li>Qonvo AI</li>
                   <li>EAA: Arent Janszoon Ernstraat 727, Amsterdam, Netherlands, 1082 LJ</li>
