@@ -15,7 +15,7 @@ const Terms = () => {
               <div>
                 <h2 className="text-xl font-semibold mb-3">1. Introduction</h2>
                 <p>
-                  Welcome to Qonvo AI ("we," "us," or "our"). We provide AI-powered calling services, acting as an outsourced contact center for our Clients ("Clients"). We utilize various third-party calling platforms to deliver these services, operating on behalf of our Clients. These Terms and Conditions ("Terms") govern your interaction with our services. By engaging with our services, you ("you" or "the Recipient") agree to comply with and be bound by these Terms.
+                  Welcome to Qonvo AI ("we," "us," or "our"). We provide AI-powered calling services, acting as an outsourced contact center for our Clients ("Clients"). We utilize various third-party calling platforms to deliver these services. These Terms and Conditions ("Terms") govern our Client's use of our services and the call Recipients ("Recipient") interaction with them. By engaging with our services, Client agrees to comply with and be bound by these terms.
                 </p>
               </div>
               
