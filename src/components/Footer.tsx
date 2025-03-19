@@ -1,5 +1,7 @@
+
 import { Bot } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -22,8 +24,15 @@ const Footer = () => {
               Schedule Demo
             </Button>
           </div>
-          <div className="pt-16 border-t w-full text-center text-sm text-gray-500">
-            © {new Date().getFullYear()} Qonvo. All rights reserved.
+          <div className="pt-16 border-t w-full text-center">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-sm text-gray-500 mb-4">
+              <Link to="/terms" className="hover:text-primary transition-colors">
+                Terms & Conditions
+              </Link>
+            </div>
+            <div className="text-sm text-gray-500">
+              © {new Date().getFullYear()} Qonvo. All rights reserved.
+            </div>
           </div>
         </div>
       </div>
