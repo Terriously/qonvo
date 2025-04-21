@@ -30,7 +30,7 @@ const Hero = () => {
             AI Callers for <span className="text-[#0EA5E9]">real estate</span>
           </h1>
           <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400 animate-fadeIn" style={{ animationDelay: "0.1s" }}>
-            Automatically book appraisals from your lead list. Handle inbound calls 24/7. Get an AI-powered phone operator tailored for you
+            No more chasing cold leads. No more wasted time. Automatically book appraisals from your lead list and handle inbound calls 24/7.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 animate-fadeIn" style={{ animationDelay: "0.2s" }}>
             <Button 
@@ -56,3 +56,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
