@@ -4,7 +4,7 @@ import { Users, Clock, TrendingUp } from "lucide-react";
 const metrics = [
   {
     icon: Users,
-    value: "5x",
+    value: "10x",  // updated from 5x to 10x
     label: "batch call efficiency from day 1"
   },
   {
