@@ -27,7 +27,7 @@ const Hero = () => {
             <Bot className="w-8 h-8 text-primary" />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold tracking-tighter animate-fadeIn">
-            AI Callers for <span className="text-[#0EA5E9]">real estate</span>
+            AI Callers for <span className="text-[#0EA5E9]">professionals</span>
           </h1>
           <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400 animate-fadeIn" style={{ animationDelay: "0.1s" }}>
             No more chasing cold leads. No more wasted time. Automatically book appraisals from your lead list and handle inbound calls 24/7.
