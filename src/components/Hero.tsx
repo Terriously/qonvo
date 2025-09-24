@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Bot, Play, Pause } from "lucide-react";
 import { toggleAudio, isAudioPlaying } from "@/utils/audio";
 import { useState, useEffect } from "react";
+import professionalBg from "@/assets/professional-hero-bg.jpg";
 
 const Hero = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -31,8 +32,17 @@ const Hero = () => {
   };
 
   return (
-    <div className="min-h-[calc(100vh-4rem)] flex items-center justify-center bg-gradient-to-b from-white to-gray-50">
-      <div className="container px-4 md:px-6">
+    <div 
+      className="min-h-[calc(100vh-4rem)] flex items-center justify-center relative"
+      style={{
+        backgroundImage: `url(${professionalBg})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
+      }}
+    >
+      <div className="absolute inset-0 bg-gradient-to-b from-white/90 to-gray-50/95"></div>
+      <div className="container px-4 md:px-6 relative z-10">
         <div className="flex flex-col items-center space-y-8 text-center">
           <div className="flex items-center justify-center w-16 h-16 rounded-full bg-primary/10">
             <Bot className="w-8 h-8 text-primary" />
