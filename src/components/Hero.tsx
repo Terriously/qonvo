@@ -51,7 +51,7 @@ const Hero = () => {
             AI Callers for <span className="text-[#0EA5E9]">{professions[currentTextIndex]}</span>
           </h1>
           <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400 animate-fadeIn" style={{ animationDelay: "0.1s" }}>
-            No more chasing cold leads. Provide 24/7 customer support. Get a tailored AI phone assistant for your professional service today.
+            No more chasing cold leads. Provide 24/7 customer support. Get a tailored AI phone assistant for your professional service.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 animate-fadeIn" style={{ animationDelay: "0.2s" }}>
             <Button 
