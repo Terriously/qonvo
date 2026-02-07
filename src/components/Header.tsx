@@ -18,7 +18,7 @@ const Header = () => {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center space-x-8">
           <Link to="/" className="text-xl font-bold text-primary hover:text-primary/80 transition-colors">
-            Qonvo
+            Fonely
           </Link>
           <NavigationMenu>
             <NavigationMenuList>

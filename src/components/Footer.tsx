@@ -16,7 +16,7 @@ const Footer = () => {
               Ready to Transform Your Customer Strategy?
             </h2>
             <p className="text-xl text-gray-600">
-              Join the future of AI-powered communication. Get started with Qonvo today.
+              Join the future of AI-powered communication. Get started with Fonely today.
             </p>
           </div>
           <div>
@@ -31,7 +31,7 @@ const Footer = () => {
               </Link>
             </div>
             <div className="text-sm text-gray-500">
-              © {new Date().getFullYear()} Qonvo. All rights reserved.
+              © {new Date().getFullYear()} Fonely. All rights reserved.
             </div>
           </div>
         </div>
