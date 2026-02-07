@@ -9,13 +9,13 @@ const Terms = () => {
       <div className="flex-1 pt-16">
         <section className="py-12 md:py-16">
           <div className="container px-4 md:px-6 max-w-4xl mx-auto">
-            <h1 className="text-3xl md:text-4xl font-bold mb-6">Terms and Conditions - Qonvo AI-Powered Calling Services</h1>
+            <h1 className="text-3xl md:text-4xl font-bold mb-6">Terms and Conditions - Fonely AI-Powered Calling Services</h1>
             
             <div className="space-y-8 text-gray-700">
               <div>
                 <h2 className="text-xl font-semibold mb-3">1. Introduction</h2>
                 <p>
-                  Welcome to Qonvo AI ("we," "us," or "our"). We provide AI-powered calling services, acting as an outsourced contact center for our Clients ("Clients"). We utilize various third-party calling platforms to deliver these services. These Terms and Conditions ("Terms") govern our Client's use of our services and the call Recipients ("Recipient") interaction with them. By engaging with our services, Client agrees to comply with and be bound by these terms.
+                  Welcome to Fonely AI ("we," "us," or "our"). We provide AI-powered calling services, acting as an outsourced contact center for our Clients ("Clients"). We utilize various third-party calling platforms to deliver these services. These Terms and Conditions ("Terms") govern our Client's use of our services and the call Recipients ("Recipient") interaction with them. By engaging with our services, Client agrees to comply with and be bound by these terms.
                 </p>
               </div>
               
@@ -92,10 +92,10 @@ const Terms = () => {
                 <h2 className="text-xl font-semibold mb-3">7. Contact Us</h2>
                 <p>If Recipient has any questions or concerns about these Terms or our data protection practices, please contact us at:</p>
                 <ul className="list-disc pl-6 space-y-2 mt-2">
-                  <li>Qonvo AI</li>
+                  <li>Fonely AI</li>
                   <li>EAA: Arent Janszoon Ernstraat 727, Amsterdam, Netherlands, 1082 LJ</li>
                   <li>Outside EAA: 5 Caulfield Place, Hamilton, New Zealand, 3200</li>
-                  <li>twinter.qonvo@gmail.com</li>
+                  <li>twinter.fonely@gmail.com</li>
                 </ul>
               </div>
               
