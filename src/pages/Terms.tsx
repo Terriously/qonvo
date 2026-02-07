@@ -95,7 +95,7 @@ const Terms = () => {
                   <li>Fonely AI</li>
                   <li>EAA: Arent Janszoon Ernstraat 727, Amsterdam, Netherlands, 1082 LJ</li>
                   <li>Outside EAA: 5 Caulfield Place, Hamilton, New Zealand, 3200</li>
-                  <li>twinter.fonely@gmail.com</li>
+                  <li>terry@fonelyai.com</li>
                 </ul>
               </div>
               
