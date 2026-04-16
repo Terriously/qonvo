@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import TrustedBy from "@/components/TrustedBy";
 import HowItWorks from "@/components/HowItWorks";
 import Metrics from "@/components/Metrics";
 import ConnectApps from "@/components/ConnectApps";
@@ -14,6 +15,7 @@ const Index = () => {
       <Header />
       <main className="pt-16">
         <Hero />
+        <TrustedBy />
         <div id="how-it-works">
           <HowItWorks />
         </div>
