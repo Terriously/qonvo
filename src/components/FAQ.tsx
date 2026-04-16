@@ -31,11 +31,11 @@ const faqs = [
 
 const FAQ = () => {
   return (
-    <section className="py-24 bg-gray-50">
+    <section className="py-24 bg-primary text-primary-foreground">
       <div className="container px-4 md:px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold mb-4">Frequently Asked Questions</h2>
-          <p className="text-gray-500 max-w-2xl mx-auto">
+          <p className="text-primary-foreground/70 max-w-2xl mx-auto">
             Find answers to common questions about Fonely
           </p>
         </div>
