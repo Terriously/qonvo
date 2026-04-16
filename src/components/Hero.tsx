@@ -9,7 +9,7 @@ const Hero = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
   
-  const professions = ["real estate", "finance", "law"];
+  const professions = ["real estate", "appraisals", "property management"];
 
   useEffect(() => {
     const interval = setInterval(() => {
