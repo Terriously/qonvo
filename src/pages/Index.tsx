@@ -15,6 +15,7 @@ const Index = () => {
       <Header />
       <main className="pt-16">
         <Hero />
+        <TrustedBy />
         <div id="how-it-works">
           <HowItWorks />
         </div>
