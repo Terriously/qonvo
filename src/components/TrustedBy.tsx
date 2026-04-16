@@ -1,4 +1,4 @@
-import barfootLogo from "@/assets/barfoot-thompson-logo.png";
+import barfootLogo from "@/assets/barfoot-thompson-logo.svg";
 import rayWhiteLogo from "@/assets/ray-white-logo.png";
 import harcourtsLogo from "@/assets/harcourts-logo.png";
 
