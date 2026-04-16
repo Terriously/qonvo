@@ -25,9 +25,6 @@ const Index = () => {
         <div id="connect-apps">
           <ConnectApps />
         </div>
-        <div id="security">
-          <Security />
-        </div>
         <div id="faq">
           <FAQ />
         </div>
