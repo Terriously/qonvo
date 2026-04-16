@@ -13,7 +13,7 @@ const TrustedBy = () => {
     <section className="py-12 bg-muted/30 border-y border-border/40">
       <div className="container px-4 md:px-6">
         <p className="text-center text-sm font-medium text-muted-foreground mb-8 uppercase tracking-widest">
-          Trusted by leading real estate brands
+          Trusted by leading real estate franchises
         </p>
         <div className="flex items-center justify-center gap-12 md:gap-20 flex-wrap">
           {logos.map((logo) => (
