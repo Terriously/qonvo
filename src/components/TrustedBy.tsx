@@ -3,9 +3,9 @@ import rayWhiteLogo from "@/assets/ray-white-logo.png";
 import harcourtsLogo from "@/assets/harcourts-logo.png";
 
 const logos = [
-  { src: rayWhiteLogo, alt: "Ray White" },
-  { src: barfootLogo, alt: "Barfoot & Thompson" },
   { src: harcourtsLogo, alt: "Harcourts" },
+  { src: barfootLogo, alt: "Barfoot & Thompson" },
+  { src: rayWhiteLogo, alt: "Ray White" },
 ];
 
 const TrustedBy = () => {
