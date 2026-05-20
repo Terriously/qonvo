@@ -29,8 +29,9 @@ const plans = [
   {
     name: "Enterprise",
     price: "Custom",
-    priceNote: "Everything in Branch, plus:",
+    priceNote: "For large teams",
     features: [
+      "Everything in Branch",
       "Trained on past calls",
       "Email automation",
       "Texting automation",
