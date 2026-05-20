@@ -78,9 +78,9 @@ const Header = () => {
         <Button 
           size="lg" 
           className="bg-primary hover:bg-primary/90" 
-          onClick={() => window.open("https://calendly.com/terry-wen333/fonely-ai", "_blank")}
+          onClick={() => window.open("https://fonelyportal.lovable.app", "_blank")}
         >
-          Book a Demo
+          Client Login
         </Button>
       </div>
     </header>
