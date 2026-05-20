@@ -12,8 +12,8 @@ const faqs = [
     answer: "We start with a 14-30 day pilot where we work closely with your business to customise your AI phone operator. During this time we deploy our software incrementally to first only handle a few calls before gradually increasing the load. We are building something cutting edge and our goal is to get you comfortable with it before we manage 100% of your calls."
   },
   {
-    question: "Can Fonely integrate with our existing systems?",
-    answer: "Yes, Fonely seamlessly integrates with leading systems. For any bespoke platforms, our technical team will work closely with you to optimize integrations."
+    question: "I'm a solo agent, is Fonely right for me?",
+    answer: "Absolutely. We have a dedicated self-serve solution with no upfront cost. Simply create an account using our client portal and get started immediately."
   },
   {
     question: "What languages does Fonely support?",
