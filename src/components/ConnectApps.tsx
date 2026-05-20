@@ -12,7 +12,7 @@ const plans = [
     highlighted: false,
   },
   {
-    name: "Branch",
+    name: "Branch/Team",
     price: "$300",
     priceNote: "per month",
     features: [
@@ -31,7 +31,7 @@ const plans = [
     price: "Custom",
     priceNote: "For large teams",
     features: [
-      "Everything in Branch",
+      "Everything in Branch/Team",
       "Trained on past calls",
       "Email automation",
       "Texting automation",
