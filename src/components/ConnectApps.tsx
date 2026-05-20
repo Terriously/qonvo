@@ -12,7 +12,7 @@ const plans = [
     highlighted: false,
   },
   {
-    name: "Branch",
+    name: "Branch/Team",
     price: "$300",
     priceNote: "per month",
     features: [
