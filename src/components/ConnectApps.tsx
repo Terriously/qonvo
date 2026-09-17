@@ -4,9 +4,9 @@ import { Button } from "@/components/ui/button";
 const plans = [
   {
     name: "Personal Assistant",
-    price: "$69",
+    price: "PAYG",
     priceNote: "per month",
-    features: ["Default script", "One number", "Pay as you go"],
+    features: ["Pay as you go", "Default script", "One number"],
     cta: "Get Started",
     ctaHref: "https://fonelyportal.lovable.app",
     highlighted: false,
