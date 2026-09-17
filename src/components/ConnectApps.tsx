@@ -31,7 +31,7 @@ const plans = [
     price: "Custom",
     priceNote: "For large teams",
     features: [
-      "Everything in Branch/Team",
+      "Everything in Business",
       "Trained on past calls",
       "Email automation",
       "Texting automation",
