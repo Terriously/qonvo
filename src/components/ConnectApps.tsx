@@ -12,7 +12,7 @@ const plans = [
     highlighted: false,
   },
   {
-    name: "Branch/Team",
+    name: "Business",
     price: "From $299",
     priceNote: "per month",
     features: [
