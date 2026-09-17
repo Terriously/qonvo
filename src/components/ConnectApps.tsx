@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const plans = [
   {
-    name: "Individual Agent",
+    name: "Personal Assistant",
     price: "$69",
     priceNote: "per month",
     features: ["Default script", "One number", "Pay as you go"],
@@ -13,7 +13,7 @@ const plans = [
   },
   {
     name: "Branch/Team",
-    price: "From $300",
+    price: "From $299",
     priceNote: "per month",
     features: [
       "Customized script",
