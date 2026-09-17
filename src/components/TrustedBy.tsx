@@ -1,12 +1,4 @@
 import barfootLogo from "@/assets/barfoot-thompson-logo.svg";
-import rayWhiteLogo from "@/assets/ray-white-logo.png";
-import harcourtsLogo from "@/assets/harcourts-logo.png";
-
-const logos = [
-  { src: harcourtsLogo, alt: "Harcourts" },
-  { src: barfootLogo, alt: "Barfoot & Thompson" },
-  { src: rayWhiteLogo, alt: "Ray White" },
-];
 
 const TrustedBy = () => {
   return (
@@ -16,15 +8,18 @@ const TrustedBy = () => {
           Trusted by leading kiwi brands
         </p>
         <div className="flex items-center justify-center gap-12 md:gap-20 flex-wrap">
-          {logos.map((logo) => (
-            <img
-              key={logo.alt}
-              src={logo.src}
-              alt={logo.alt}
-              loading="lazy"
-              className="h-12 md:h-16 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
-            />
-          ))}
+          <img
+            src={barfootLogo}
+            alt="Barfoot & Thompson"
+            loading="lazy"
+            className="h-12 md:h-16 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
+          />
+          <span className="text-xl md:text-2xl font-bold text-foreground/70 hover:text-foreground transition-colors tracking-tight">
+            Lumino Dentists
+          </span>
+          <span className="text-xl md:text-2xl font-bold text-foreground/70 hover:text-foreground transition-colors tracking-tight">
+            Chang Construction Legal
+          </span>
         </div>
       </div>
     </section>
