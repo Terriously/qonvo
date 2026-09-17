@@ -4,8 +4,8 @@ import { MessageSquare, Calendar, Users } from "lucide-react";
 const steps = [
   {
     icon: Users,
-    title: "Customised Agent",
-    description: "Get a custom made ready to go solution trained on your past calls"
+    title: "Inbound/Outbound",
+    description: "Get a receptionist or cold caller tailored to your use case"
   },
   {
     icon: MessageSquare,
