@@ -1,5 +1,6 @@
 import barfootLogo from "@/assets/barfoot-thompson-logo.svg";
 import luminoLogo from "@/assets/lumino-logo.png.asset.json";
+import changLogo from "@/assets/chang-logo.png.asset.json";
 
 const TrustedBy = () => {
   return (
