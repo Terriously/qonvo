@@ -12,7 +12,7 @@ const faqs = [
     answer: "We start with a 14-30 day pilot where we work closely with your business to customise your AI phone operator. During this time we deploy our software incrementally to first only handle a few calls before gradually increasing the load. We are building something cutting edge and our goal is to get you comfortable with it before we manage 100% of your calls."
   },
   {
-    question: "I'm a solo agent, is Fonely right for me?",
+    question: "I'm a sole trader/freelancer, is Fonely right for me?",
     answer: "Absolutely. We have a dedicated self-serve solution with no upfront cost. Simply create an account using our client portal and get started immediately."
   },
   {
