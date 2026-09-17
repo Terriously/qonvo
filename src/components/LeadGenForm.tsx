@@ -107,7 +107,7 @@ const LeadGenForm = () => {
                       </FormControl>
                       <div className="space-y-1 leading-none">
                         <FormLabel>
-                          I agree to receive communications and updates from Qunvo
+                          I agree to receive communications and updates from Fonely AI
                         </FormLabel>
                       </div>
                     </FormItem>
