@@ -1,4 +1,5 @@
 import barfootLogo from "@/assets/barfoot-thompson-logo.svg";
+import luminoLogo from "@/assets/lumino-logo.png.asset.json";
 
 const TrustedBy = () => {
   return (
@@ -14,9 +15,12 @@ const TrustedBy = () => {
             loading="lazy"
             className="h-12 md:h-16 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
           />
-          <span className="text-xl md:text-2xl font-bold text-foreground/70 hover:text-foreground transition-colors tracking-tight">
-            Lumino Dentists
-          </span>
+          <img
+            src={luminoLogo.url}
+            alt="Lumino The Dentists"
+            loading="lazy"
+            className="h-12 md:h-16 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
+          />
           <span className="text-xl md:text-2xl font-bold text-foreground/70 hover:text-foreground transition-colors tracking-tight">
             Chang Construction Legal
           </span>
