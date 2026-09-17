@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     question: "What languages does Fonely support?",
-    answer: "Fonely supports multiple languages including English, Spanish, French, German, and Chinese, with more languages being added regularly."
+    answer: "Fonely is 100% fluent in multiple languages including English, Spanish, French, German, and Chinese, with more languages being added regularly."
   },
   {
     question: "How does Fonely protect data?",
