@@ -1,5 +1,5 @@
 
-import { Users, Clock, TrendingUp } from "lucide-react";
+import { Users, Clock, TrendingDown } from "lucide-react";
 
 const metrics = [
   {
@@ -13,9 +13,9 @@ const metrics = [
     label: "Availability"
   },
   {
-    icon: TrendingUp,
-    value: "80%",
-    label: "conversion rate of top humans"
+    icon: TrendingDown,
+    value: "10%",
+    label: "monthly cost of an employee"
   }
 ];
 
