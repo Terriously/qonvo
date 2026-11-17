@@ -93,7 +93,7 @@ const Terms = () => {
                 <p>If Recipient has any questions or concerns about these Terms or our data protection practices, please contact us at:</p>
                 <ul className="list-disc pl-6 space-y-2 mt-2">
                   <li>Fonely AI</li>
-                  <li>EAA: Arent Janszoon Ernstraat 727, Amsterdam, Netherlands, 1082 LJ</li>
+                  <li>EAA: Fridensborgsvägen 163, Stockholm, Sweden, 170 62</li>
                   <li>Outside EAA: 5 Caulfield Place, Hamilton, New Zealand, 3200</li>
                   <li>terry@fonelyai.com</li>
                 </ul>
